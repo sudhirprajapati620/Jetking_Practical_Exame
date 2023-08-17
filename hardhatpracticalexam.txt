@@ -1,0 +1,102 @@
+1. Write tests for your smart contract and demonstrate
+the process of testing using Hardhat Development
+Environment.
+
+ans . 
+
+Install Hardhat:
+If you haven't already, install Hardhat globally using npm:
+
+npm install -g hardhat
+Create a new project:
+Create a new directory for your project and navigate into it.
+
+mkdir my-contract
+npx hardhat init
+Write Tests:
+Inside the test directory of your project, create a new JavaScript file .
+
+Run Tests:
+Run your tests using the Hardhat CLI:
+
+npx hardhat test
+Hardhat will compile your contracts, deploy them to a local network,
+and execute the tests. You should see the test results in your terminal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2) Demonstrate the steps involved in the process of
+deploying your smart contract to a live network.
+
+Make sure your smart contract code is finalized, tested, and ready for deployment.
+Ensure that any constructor arguments.
+
+Keep in mind that the process of deploying to a testnet is similar;
+you would just need to configure your Hardhat network settings for 
+the desired testnet and use a different network name in the deployment command.
+
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.17;
+
+contract smartcontract{
+    //write a code inside solidity programe smart contract
+}
+
+
+hardhat is the provided feature compile, deploy and test 
+flexibity to code converted it into the bytcode 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
